@@ -1620,7 +1620,7 @@ column-header.button.dnd { // for treeview-like derive widgets
     &.left { border-left-width: 0; }
   }
   &.header {
-    background-color: $bg_color;
+    background-color: lighten($header_bg, 10%);
 
     // this is the shading of the header behind the tabs
     &.frame {
@@ -1679,17 +1679,13 @@ column-header.button.dnd { // for treeview-like derive widgets
         border-width: 0;
         border-#{$_tab}-width: 2px;
         border-color: transparent;
-        background-color: transparentize($base_color, 1);
+        background-color: transparentize($base_color, .9);
 
         &:hover, &.prelight-page {
           background-color: transparentize($base_color, 0.5);
-          box-shadow: inset 0 1px $borders_color,
-                      inset 0 -1px $borders_color,
-                      inset 1px 0 $borders_color,
-                      inset -1px 0 $borders_color;
         }
         &:active, &.active-page, &.active-page:hover {
-          background-color: $base_color;
+          background-color: transparentize($base_color, 0.3);
 
           @if $_tab==top {
             box-shadow: inset 0 1px $borders_color,
@@ -1720,7 +1716,7 @@ column-header.button.dnd { // for treeview-like derive widgets
     }
     GtkLabel { //tab text
       padding: 0 2px; // needed for a nicer focus ring
-      color: $insensitive_fg_color;
+      color: mix($bg_color, $fg_color, 65%);
     }
     .prelight-page GtkLabel, GtkLabel.prelight-page {
       // prelight tab text
@@ -1728,7 +1724,7 @@ column-header.button.dnd { // for treeview-like derive widgets
     }
     .active-page GtkLabel, GtkLabel.active-page {
       // active tab text
-      color: $fg_color;
+      color: darken($fg_color, 10%);
     }
     .button { //tab close button
       padding: 0;
