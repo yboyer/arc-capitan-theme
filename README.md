@@ -8,9 +8,9 @@ Arc is a flat theme with transparent elements for GTK 3, GTK 2 and Gnome-Shell w
 
 ![A screenshot of the Arc theme](http://i.imgur.com/Ph5ObOa.png)
 
-##### Arc-Darker
+##### Arc-Capitan
 
-![A screenshot of the Arc-Darker theme](http://i.imgur.com/NC6dqyl.png)
+![A screenshot of the Arc-Capitan theme](http://i.imgur.com/NC6dqyl.png)
 
 ##### Arc-Dark
 
@@ -92,7 +92,7 @@ Other options to pass to autogen.sh are
                                Note: Normally the correct version is detected automatically and this
                                option should not be needed.
 
-After the installation is complete you can activate the theme with `gnome-tweak-tool` or a similar program by selecting `Arc`, `Arc-Darker` or `Arc-Dark` as Window/GTK+ theme and `Arc` or `Arc-Dark` as Gnome Shell/Cinnamon theme.
+After the installation is complete you can activate the theme with `gnome-tweak-tool` or a similar program by selecting `Arc`, `Arc-Capitan` or `Arc-Dark` as Window/GTK+ theme and `Arc` or `Arc-Dark` as Gnome Shell/Cinnamon theme.
 
 ## Uninstall
 
@@ -102,7 +102,7 @@ Run
 
 from the cloned git repository, or
 
-    sudo rm -rf /usr/share/themes/{Arc,Arc-Darker,Arc-Dark}
+    sudo rm -rf /usr/share/themes/{Arc,Arc-Capitan,Arc-Dark}
 
 ## Extras
 
