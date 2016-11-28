@@ -1396,14 +1396,12 @@ column-header .button, column-header .button:hover, column-header .button:active
     border-radius: 2px;
     border: none; }
   .menu .menuitem {
-    padding: 5px; }
+    padding: 4px 1px; }
     .menu .menuitem:hover {
       color: #ffffff;
       background-color: #5294e2; }
     .menu .menuitem:insensitive {
       color: rgba(211, 218, 227, 0.45); }
-    .menu .menuitem.separator {
-      color: rgba(64, 69, 82, 0); }
     .menu .menuitem.arrow {
       -gtk-icon-source: -gtk-icontheme("pan-end-symbolic"); }
     .menu .menuitem.arrow:dir(rtl) {
@@ -1481,7 +1479,7 @@ column-header .button, column-header .button:hover, column-header .button:active
     .notebook.frame.left {
       border-left-width: 0; }
   .notebook.header {
-    background-color: #383C4A; }
+    background-color: #454c5c; }
     .notebook.header.frame {
       border: 0px solid #2b2e39; }
       .notebook.header.frame.top {
@@ -1520,12 +1518,11 @@ column-header .button, column-header .button:hover, column-header .button:active
       border-width: 0;
       border-top-width: 2px;
       border-color: transparent;
-      background-color: rgba(64, 69, 82, 0); }
+      background-color: rgba(64, 69, 82, 0.1); }
       .notebook tab.reorderable-page.top:hover, .notebook tab.reorderable-page.top.prelight-page, .notebook tab.top:hover, .notebook tab.top.prelight-page {
-        background-color: rgba(64, 69, 82, 0.5);
-        box-shadow: inset 0 1px #2b2e39, inset 0 -1px #2b2e39, inset 1px 0 #2b2e39, inset -1px 0 #2b2e39; }
+        background-color: rgba(64, 69, 82, 0.5); }
       .notebook tab.reorderable-page.top:active, .notebook tab.reorderable-page.top.active-page, .notebook tab.reorderable-page.top.active-page:hover, .notebook tab.top:active, .notebook tab.top.active-page, .notebook tab.top.active-page:hover {
-        background-color: #404552;
+        background-color: rgba(64, 69, 82, 0.7);
         box-shadow: inset 0 1px #2b2e39, inset 0 -1px #404552, inset 1px 0 #2b2e39, inset -1px 0 #2b2e39; }
     .notebook tab.reorderable-page.bottom, .notebook tab.bottom {
       padding-bottom: 6px;
@@ -1533,12 +1530,11 @@ column-header .button, column-header .button:hover, column-header .button:active
       border-width: 0;
       border-bottom-width: 2px;
       border-color: transparent;
-      background-color: rgba(64, 69, 82, 0); }
+      background-color: rgba(64, 69, 82, 0.1); }
       .notebook tab.reorderable-page.bottom:hover, .notebook tab.reorderable-page.bottom.prelight-page, .notebook tab.bottom:hover, .notebook tab.bottom.prelight-page {
-        background-color: rgba(64, 69, 82, 0.5);
-        box-shadow: inset 0 1px #2b2e39, inset 0 -1px #2b2e39, inset 1px 0 #2b2e39, inset -1px 0 #2b2e39; }
+        background-color: rgba(64, 69, 82, 0.5); }
       .notebook tab.reorderable-page.bottom:active, .notebook tab.reorderable-page.bottom.active-page, .notebook tab.reorderable-page.bottom.active-page:hover, .notebook tab.bottom:active, .notebook tab.bottom.active-page, .notebook tab.bottom.active-page:hover {
-        background-color: #404552;
+        background-color: rgba(64, 69, 82, 0.7);
         box-shadow: inset 0 -1px #404552, inset 0 -1px #2b2e39, inset 1px 0 #2b2e39, inset -1px 0 #2b2e39; }
     .notebook tab.reorderable-page.right, .notebook tab.right {
       padding-right: 17px;
@@ -1546,12 +1542,11 @@ column-header .button, column-header .button:hover, column-header .button:active
       border-width: 0;
       border-right-width: 2px;
       border-color: transparent;
-      background-color: rgba(64, 69, 82, 0); }
+      background-color: rgba(64, 69, 82, 0.1); }
       .notebook tab.reorderable-page.right:hover, .notebook tab.reorderable-page.right.prelight-page, .notebook tab.right:hover, .notebook tab.right.prelight-page {
-        background-color: rgba(64, 69, 82, 0.5);
-        box-shadow: inset 0 1px #2b2e39, inset 0 -1px #2b2e39, inset 1px 0 #2b2e39, inset -1px 0 #2b2e39; }
+        background-color: rgba(64, 69, 82, 0.5); }
       .notebook tab.reorderable-page.right:active, .notebook tab.reorderable-page.right.active-page, .notebook tab.reorderable-page.right.active-page:hover, .notebook tab.right:active, .notebook tab.right.active-page, .notebook tab.right.active-page:hover {
-        background-color: #404552;
+        background-color: rgba(64, 69, 82, 0.7);
         box-shadow: inset 0 1px #2b2e39, inset 0 -1px #2b2e39, inset 1px 0 #404552, inset -1px 0 #2b2e39; }
     .notebook tab.reorderable-page.left, .notebook tab.left {
       padding-left: 17px;
@@ -1559,20 +1554,19 @@ column-header .button, column-header .button:hover, column-header .button:active
       border-width: 0;
       border-left-width: 2px;
       border-color: transparent;
-      background-color: rgba(64, 69, 82, 0); }
+      background-color: rgba(64, 69, 82, 0.1); }
       .notebook tab.reorderable-page.left:hover, .notebook tab.reorderable-page.left.prelight-page, .notebook tab.left:hover, .notebook tab.left.prelight-page {
-        background-color: rgba(64, 69, 82, 0.5);
-        box-shadow: inset 0 1px #2b2e39, inset 0 -1px #2b2e39, inset 1px 0 #2b2e39, inset -1px 0 #2b2e39; }
+        background-color: rgba(64, 69, 82, 0.5); }
       .notebook tab.reorderable-page.left:active, .notebook tab.reorderable-page.left.active-page, .notebook tab.reorderable-page.left.active-page:hover, .notebook tab.left:active, .notebook tab.left.active-page, .notebook tab.left.active-page:hover {
-        background-color: #404552;
+        background-color: rgba(64, 69, 82, 0.7);
         box-shadow: inset 0 1px #2b2e39, inset 0 -1px #2b2e39, inset 1px 0 #2b2e39, inset -1px 0 #404552; }
     .notebook tab GtkLabel {
       padding: 0 2px;
-      color: rgba(211, 218, 227, 0.45); }
+      color: #6e7380; }
     .notebook tab .prelight-page GtkLabel, .notebook tab GtkLabel.prelight-page {
       color: rgba(211, 218, 227, 0.725); }
     .notebook tab .active-page GtkLabel, .notebook tab GtkLabel.active-page {
-      color: #D3DAE3; }
+      color: #b4c0cf; }
     .notebook tab .button {
       padding: 0;
       color: #9da3ad; }
@@ -3302,15 +3296,15 @@ UnityDecoration {
   -UnityDecoration-title-fade: 35px;
   -UnityDecoration-title-alignment: 0.0; }
   UnityDecoration.top {
-    border: 1px solid #20232b;
-    border-bottom-width: 0;
-    border-radius: 4px 4px 0 0;
-    padding: 1px 6px 0 6px;
+    border-bottom: 1px solid #2a2e38;
+    border-radius: 6px 6px 0 0;
+    padding: 0 6px;
     background-image: linear-gradient(to bottom, #2f343f);
     color: rgba(207, 218, 231, 0.8);
     box-shadow: inset 0 1px #363b48; }
     UnityDecoration.top:backdrop {
       border-bottom-width: 0;
+      background-image: linear-gradient(to bottom, #323843);
       color: rgba(207, 218, 231, 0.5); }
   UnityDecoration.left, UnityDecoration.right, UnityDecoration.bottom, UnityDecoration.left:backdrop, UnityDecoration.right:backdrop, UnityDecoration.bottom:backdrop {
     background-color: transparent;
