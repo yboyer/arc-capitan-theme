@@ -1,11 +1,14 @@
 ## Arc Capitan
-> Fork of [**Arc Theme**](https://github.com/horst3180/arc-theme) by **horst3180**
+> Improved fork of [**Arc Theme**](https://github.com/horst3180/arc-theme) by **horst3180**
+
+
+![arc-capitan-theme](.github/screen.png)
 
 
 ### Installation
 Clone the `theme` branch of the repo into your `~/.themes` directory and activate it with `gnome-tweak-tools` or `unity-tweak-tool`.
 ```bash
-git clone -b theme --single-branch https://github.com/yboyer/arc-capitan '~/.themes/Arc Capitan' --depth 1
+git clone -b theme --single-branch https://github.com/yboyer/arc-capitan-theme '~/.themes/Arc Capitan' --depth 1
 ```
 
 ---
@@ -23,7 +26,7 @@ To build the theme the follwing packages are required
 ##### 1. Get the source
 Clone the git repository with
 ```bash
-git clone https://github.com/yboyer/arc-capitan --depth 1 && cd arc-capitan
+git clone https://github.com/yboyer/arc-capitan-theme --depth 1 && cd arc-capitan
 ```
 
 ##### 2. Build and install the theme
