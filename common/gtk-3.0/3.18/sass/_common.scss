@@ -2613,7 +2613,7 @@ GtkInfoBar {
   }
 
   color: $osd_fg_color;
-  border-radius: 2px;
+  border-radius: 3px;
 
   &.window-frame.csd {
     background-color: transparent;
@@ -2621,7 +2621,7 @@ GtkInfoBar {
 }
 
 .tooltip * { //Yeah this is ugly
-  padding: 4px;
+  padding: 1px;
   background-color: transparent;
   color: inherit; // just to be sure
 }
