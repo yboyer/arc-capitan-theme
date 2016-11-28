@@ -1524,7 +1524,7 @@ column-header.button.dnd { // for treeview-like derive widgets
   }
 
   .menuitem {
-    padding: 4px 1px;
+    padding: 4px 4px 4px 1px;
     &:hover {
       color: $selected_fg_color;
       background-color: $selected_bg_color;
