@@ -22,7 +22,6 @@ UnityDecoration {
 
   &.top {
     border: 1px solid $windowborder_color;
-    border-bottom: 1px solid darken($header_bg, 2.5%);
     border-bottom-width: 0;
 
     border-radius: 6px 6px 0 0;
@@ -35,7 +34,6 @@ UnityDecoration {
       inset 0 -1px darken($header_bg, 2%);
 
     &:backdrop {
-      border-bottom-width: 0;
       color: transparentize($header_fg, 0.3);
     }
   }
